@@ -107,20 +107,30 @@ export const evRangeData: CarRange[] = [
     coolingConsumption: 45,
   },
   {
+    //@ts-expect-error intentionaly broken data
     name: ["false"],
     partOfYear: {
+      //@ts-expect-error intentionaly broken data
       summer: false,
+      //@ts-expect-error intentionaly broken data
       autumn: "nein",
+      //@ts-expect-error intentionaly broken data
       winter: "urgh",
     },
     typeOfRoad: {
+      //@ts-expect-error intentionaly broken data
       city: "ddd",
+      //@ts-expect-error intentionaly broken data
       outsideCity: false,
+      //@ts-expect-error intentionaly broken data
       highway: {},
     },
     drivingStyle: {
+      //@ts-expect-error intentionaly broken data
       snail: "12",
+      //@ts-expect-error intentionaly broken data
       normal: [],
+      //@ts-expect-error intentionaly broken data
       aggressive: "aaa",
     },
     fullRange: 450,
