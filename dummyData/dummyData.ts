@@ -21,6 +21,7 @@ export const evRangeData: CarRange[] = [
     fullRange: 500,
     heatingConsumption: 50,
     coolingConsumption: 50,
+    imgSrc: "/cars/Tesla.jpeg",
   },
   {
     name: "Nissan Leaf",
@@ -42,6 +43,7 @@ export const evRangeData: CarRange[] = [
     fullRange: 300,
     heatingConsumption: 30,
     coolingConsumption: 30,
+    imgSrc: "/cars/Nissan.jpg",
   },
   {
     name: "BMW i3",
@@ -63,6 +65,7 @@ export const evRangeData: CarRange[] = [
     fullRange: 400,
     heatingConsumption: 40,
     coolingConsumption: 40,
+    imgSrc: "/cars/BMW.jpg",
   },
   {
     name: "Renault Zoe",
@@ -84,6 +87,7 @@ export const evRangeData: CarRange[] = [
     fullRange: 350,
     heatingConsumption: 35,
     coolingConsumption: 35,
+    imgSrc: "/cars/Renault.webp",
   },
   {
     name: "Volkswagen ID.3",
@@ -105,6 +109,7 @@ export const evRangeData: CarRange[] = [
     fullRange: 450,
     heatingConsumption: 45,
     coolingConsumption: 45,
+    imgSrc: "/cars/VW.webp",
   },
   {
     //@ts-expect-error intentionaly broken data
@@ -136,5 +141,6 @@ export const evRangeData: CarRange[] = [
     fullRange: 450,
     heatingConsumption: 45,
     coolingConsumption: 45,
+    imgSrc: "/cars/Flinstone.jpg",
   },
 ];

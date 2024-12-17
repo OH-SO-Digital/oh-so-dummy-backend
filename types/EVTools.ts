@@ -81,4 +81,9 @@ export interface CarRange {
    * Consumption of the car when cooling is on on MAX in KM
    */
   coolingConsumption: number;
+
+  /**
+   * Image source location
+   */
+  imgSrc: string;
 }
